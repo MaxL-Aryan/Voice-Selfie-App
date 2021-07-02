@@ -36,8 +36,8 @@ function speak()
 Webcam.set({
     width:360,
     height:220,
-    image_format:'jpg',
-    png_quality:90
+    image_format:'png',
+    png_quality:99
 });
 camera=document.getElementById("camera");
 function take_snapshot()
